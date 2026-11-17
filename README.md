@@ -10,8 +10,8 @@ A repository of Go programming examples, algorithms, data structures, and founda
 go-programs/
 ├── basics-programs/
 │   └── 01_basic_programs/
-│       ├── reverse_string.go       # Implementations of string reversal (backward iteration & two-pointer)
-│       └── reverse_string_test.go  # Unit tests and benchmarks
+│       ├── reverse_string.go       # String reversal (backward iteration & two-pointer swap)
+│       └── string_palindrome.go    # String palindrome check using two-pointer reversal
 ├── go.mod
 └── README.md
 ```
@@ -24,23 +24,17 @@ go-programs/
 
 | Program | Description | Key Concepts |
 |---|---|---|
-| [`reverse_string.go`](basics-programs/01_basic_programs/reverse_string.go) | Reverses strings using multiple approaches | Runes, Unicode handling, Two-pointer technique, Slice allocation |
+| [`reverse_string.go`](basics-programs/01_basic_programs/reverse_string.go) | Reverses strings using multiple approaches | Runes, Unicode handling, Two-pointer technique, Slice pre-allocation |
+| [`string_palindrome.go`](basics-programs/01_basic_programs/string_palindrome.go) | Checks whether a string is a palindrome | Palindrome check, Runes, Two-pointer technique |
 
 ---
 
-## Running & Testing
+## Running Programs
 
-### Run a Program
 ```bash
+# Run reverse string
 go run basics-programs/01_basic_programs/reverse_string.go
-```
 
-### Run Unit Tests
-```bash
-go test -v ./...
-```
-
-### Run Benchmarks
-```bash
-go test -bench=. -benchmem ./...
+# Run string palindrome check
+go run basics-programs/01_basic_programs/string_palindrome.go
 ```
