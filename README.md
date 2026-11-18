@@ -10,6 +10,7 @@ A repository of Go programming examples, algorithms, data structures, and founda
 go-programs/
 ├── basics-programs/
 │   └── 01_basic_programs/
+│       ├── factorial_recursion.go  # Factorial calculation using recursive and iterative approaches
 │       ├── fibonacci_series.go     # Fibonacci series generation using iterative switch-case approach
 │       ├── prime_number.go         # Prime number check and range counting using trial division
 │       ├── reverse_integer.go      # Integer reversal and palindrome check using arithmetic operations
@@ -32,6 +33,7 @@ go-programs/
 | [`reverse_integer.go`](basics-programs/01_basic_programs/reverse_integer.go) | Reverses an integer and checks if it is a palindrome | Modulo arithmetic, Palindrome check, Digit extraction |
 | [`prime_number.go`](basics-programs/01_basic_programs/prime_number.go) | Checks if a number is prime and counts primes in a range | Prime numbers, Trial division up to sqrt(n), Optimization |
 | [`fibonacci_series.go`](basics-programs/01_basic_programs/fibonacci_series.go) | Generates Fibonacci numbers for a given count | Fibonacci sequence, Switch-case, Iterative calculation |
+| [`factorial_recursion.go`](basics-programs/01_basic_programs/factorial_recursion.go) | Computes factorial using recursive and iterative methods | Recursion, Iteration, Base cases, Call stack |
 
 ---
 
@@ -52,4 +54,7 @@ go run basics-programs/01_basic_programs/prime_number.go
 
 # Run fibonacci series
 go run basics-programs/01_basic_programs/fibonacci_series.go
+
+# Run factorial calculation
+go run basics-programs/01_basic_programs/factorial_recursion.go
 ```
