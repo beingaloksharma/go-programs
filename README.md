@@ -11,6 +11,7 @@ go-programs/
 ├── basics-programs/
 │   └── 01_basic_programs/
 │       ├── armstrong_number.go     # Armstrong number check using digit extraction and power calculation
+│       ├── even_odd.go             # Even or odd number check using modulo arithmetic
 │       ├── factorial_recursion.go  # Factorial calculation using recursive and iterative approaches
 │       ├── fibonacci_series.go     # Fibonacci series generation using iterative switch-case approach
 │       ├── prime_number.go         # Prime number check and range counting using trial division
@@ -36,6 +37,7 @@ go-programs/
 | [`fibonacci_series.go`](basics-programs/01_basic_programs/fibonacci_series.go) | Generates Fibonacci numbers for a given count | Fibonacci sequence, Switch-case, Iterative calculation |
 | [`factorial_recursion.go`](basics-programs/01_basic_programs/factorial_recursion.go) | Computes factorial using recursive and iterative methods | Recursion, Iteration, Base cases, Call stack |
 | [`armstrong_number.go`](basics-programs/01_basic_programs/armstrong_number.go) | Checks whether a number is an Armstrong number | Armstrong number, Modulo arithmetic, Digit extraction, Power calculation |
+| [`even_odd.go`](basics-programs/01_basic_programs/even_odd.go) | Checks whether a number is even or odd | Modulo arithmetic, Conditional checks, Basic math |
 
 ---
 
@@ -62,4 +64,7 @@ go run basics-programs/01_basic_programs/factorial_recursion.go
 
 # Run armstrong number check
 go run basics-programs/01_basic_programs/armstrong_number.go
+
+# Run even or odd check
+go run basics-programs/01_basic_programs/even_odd.go
 ```
