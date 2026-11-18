@@ -18,7 +18,8 @@ go-programs/
 │       ├── prime_number.go         # Prime number check and range counting using trial division
 │       ├── reverse_integer.go      # Integer reversal and palindrome check using arithmetic operations
 │       ├── reverse_string.go       # String reversal (backward iteration & two-pointer swap)
-│       └── string_palindrome.go    # String palindrome check using two-pointer reversal
+│       ├── string_palindrome.go    # String palindrome check using two-pointer reversal
+│       └── swap_numbers.go         # Swap two numbers using tuple assignment, arithmetic, and XOR
 ├── go.mod
 └── README.md
 ```
@@ -40,6 +41,7 @@ go-programs/
 | [`armstrong_number.go`](basics-programs/01_basic_programs/armstrong_number.go) | Checks whether a number is an Armstrong number | Armstrong number, Modulo arithmetic, Digit extraction, Power calculation |
 | [`even_odd.go`](basics-programs/01_basic_programs/even_odd.go) | Checks whether a number is even or odd | Modulo arithmetic, Conditional checks, Basic math |
 | [`largest_smallest.go`](basics-programs/01_basic_programs/largest_smallest.go) | Finds the smallest and largest numbers in a slice | Array traversal, Min/Max search, Edge case handling |
+| [`swap_numbers.go`](basics-programs/01_basic_programs/swap_numbers.go) | Swaps two numbers using multiple techniques | Tuple assignment, Arithmetic operations, Bitwise XOR |
 
 ---
 
@@ -72,4 +74,7 @@ go run basics-programs/01_basic_programs/even_odd.go
 
 # Run find largest and smallest
 go run basics-programs/01_basic_programs/largest_smallest.go
+
+# Run swap numbers
+go run basics-programs/01_basic_programs/swap_numbers.go
 ```
