@@ -10,6 +10,7 @@ A repository of Go programming examples, algorithms, data structures, and founda
 go-programs/
 ├── basics-programs/
 │   └── 01_basic_programs/
+│       ├── armstrong_number.go     # Armstrong number check using digit extraction and power calculation
 │       ├── factorial_recursion.go  # Factorial calculation using recursive and iterative approaches
 │       ├── fibonacci_series.go     # Fibonacci series generation using iterative switch-case approach
 │       ├── prime_number.go         # Prime number check and range counting using trial division
@@ -34,6 +35,7 @@ go-programs/
 | [`prime_number.go`](basics-programs/01_basic_programs/prime_number.go) | Checks if a number is prime and counts primes in a range | Prime numbers, Trial division up to sqrt(n), Optimization |
 | [`fibonacci_series.go`](basics-programs/01_basic_programs/fibonacci_series.go) | Generates Fibonacci numbers for a given count | Fibonacci sequence, Switch-case, Iterative calculation |
 | [`factorial_recursion.go`](basics-programs/01_basic_programs/factorial_recursion.go) | Computes factorial using recursive and iterative methods | Recursion, Iteration, Base cases, Call stack |
+| [`armstrong_number.go`](basics-programs/01_basic_programs/armstrong_number.go) | Checks whether a number is an Armstrong number | Armstrong number, Modulo arithmetic, Digit extraction, Power calculation |
 
 ---
 
@@ -57,4 +59,7 @@ go run basics-programs/01_basic_programs/fibonacci_series.go
 
 # Run factorial calculation
 go run basics-programs/01_basic_programs/factorial_recursion.go
+
+# Run armstrong number check
+go run basics-programs/01_basic_programs/armstrong_number.go
 ```
