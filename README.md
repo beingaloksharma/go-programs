@@ -19,6 +19,7 @@ go-programs/
 │       ├── reverse_integer.go      # Integer reversal and palindrome check using arithmetic operations
 │       ├── reverse_string.go       # String reversal (backward iteration & two-pointer swap)
 │       ├── string_palindrome.go    # String palindrome check using two-pointer reversal
+│       ├── sum_of_digits.go        # Sum of digits calculation using iterative and recursive approaches
 │       └── swap_numbers.go         # Swap two numbers using tuple assignment, arithmetic, and XOR
 ├── go.mod
 └── README.md
@@ -42,6 +43,7 @@ go-programs/
 | [`even_odd.go`](basics-programs/01_basic_programs/even_odd.go) | Checks whether a number is even or odd | Modulo arithmetic, Conditional checks, Basic math |
 | [`largest_smallest.go`](basics-programs/01_basic_programs/largest_smallest.go) | Finds the smallest and largest numbers in a slice | Array traversal, Min/Max search, Edge case handling |
 | [`swap_numbers.go`](basics-programs/01_basic_programs/swap_numbers.go) | Swaps two numbers using multiple techniques | Tuple assignment, Arithmetic operations, Bitwise XOR |
+| [`sum_of_digits.go`](basics-programs/01_basic_programs/sum_of_digits.go) | Calculates the sum of digits of an integer | Modulo arithmetic, Digit extraction, Recursion vs Iteration |
 
 ---
 
@@ -77,4 +79,7 @@ go run basics-programs/01_basic_programs/largest_smallest.go
 
 # Run swap numbers
 go run basics-programs/01_basic_programs/swap_numbers.go
+
+# Run sum of digits
+go run basics-programs/01_basic_programs/sum_of_digits.go
 ```
