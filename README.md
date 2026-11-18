@@ -14,6 +14,7 @@ go-programs/
 │       ├── even_odd.go             # Even or odd number check using modulo arithmetic
 │       ├── factorial_recursion.go  # Factorial calculation using recursive and iterative approaches
 │       ├── fibonacci_series.go     # Fibonacci series generation using iterative switch-case approach
+│       ├── largest_smallest.go     # Find largest and smallest numbers in an integer slice
 │       ├── prime_number.go         # Prime number check and range counting using trial division
 │       ├── reverse_integer.go      # Integer reversal and palindrome check using arithmetic operations
 │       ├── reverse_string.go       # String reversal (backward iteration & two-pointer swap)
@@ -38,6 +39,7 @@ go-programs/
 | [`factorial_recursion.go`](basics-programs/01_basic_programs/factorial_recursion.go) | Computes factorial using recursive and iterative methods | Recursion, Iteration, Base cases, Call stack |
 | [`armstrong_number.go`](basics-programs/01_basic_programs/armstrong_number.go) | Checks whether a number is an Armstrong number | Armstrong number, Modulo arithmetic, Digit extraction, Power calculation |
 | [`even_odd.go`](basics-programs/01_basic_programs/even_odd.go) | Checks whether a number is even or odd | Modulo arithmetic, Conditional checks, Basic math |
+| [`largest_smallest.go`](basics-programs/01_basic_programs/largest_smallest.go) | Finds the smallest and largest numbers in a slice | Array traversal, Min/Max search, Edge case handling |
 
 ---
 
@@ -67,4 +69,7 @@ go run basics-programs/01_basic_programs/armstrong_number.go
 
 # Run even or odd check
 go run basics-programs/01_basic_programs/even_odd.go
+
+# Run find largest and smallest
+go run basics-programs/01_basic_programs/largest_smallest.go
 ```
