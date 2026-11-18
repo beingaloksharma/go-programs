@@ -16,6 +16,7 @@ go-programs/
 │       ├── factorial_recursion.go  # Factorial calculation using recursive and iterative approaches
 │       ├── fibonacci_series.go     # Fibonacci series generation using iterative switch-case approach
 │       ├── largest_smallest.go     # Find largest and smallest numbers in an integer slice
+│       ├── multiplication_table.go # Multiplication table generation for a given integer
 │       ├── prime_number.go         # Prime number check and range counting using trial division
 │       ├── reverse_integer.go      # Integer reversal and palindrome check using arithmetic operations
 │       ├── reverse_string.go       # String reversal (backward iteration & two-pointer swap)
@@ -46,6 +47,7 @@ go-programs/
 | [`swap_numbers.go`](basics-programs/01_basic_programs/swap_numbers.go) | Swaps two numbers using multiple techniques | Tuple assignment, Arithmetic operations, Bitwise XOR |
 | [`sum_of_digits.go`](basics-programs/01_basic_programs/sum_of_digits.go) | Calculates the sum of digits of an integer | Modulo arithmetic, Digit extraction, Recursion vs Iteration |
 | [`count_digits.go`](basics-programs/01_basic_programs/count_digits.go) | Counts the number of digits in an integer | Integer division, Logarithmic complexity, Recursion vs Iteration |
+| [`multiplication_table.go`](basics-programs/01_basic_programs/multiplication_table.go) | Prints the multiplication table of a number | Loops, Formatted printing, Arithmetic operations |
 
 ---
 
@@ -87,4 +89,7 @@ go run basics-programs/01_basic_programs/sum_of_digits.go
 
 # Run count digits
 go run basics-programs/01_basic_programs/count_digits.go
+
+# Run multiplication table
+go run basics-programs/01_basic_programs/multiplication_table.go
 ```
