@@ -11,6 +11,7 @@ go-programs/
 ├── basics-programs/
 │   └── 01_basic_programs/
 │       ├── armstrong_number.go     # Armstrong number check using digit extraction and power calculation
+│       ├── count_digits.go         # Count digits in an integer using iterative and recursive approaches
 │       ├── even_odd.go             # Even or odd number check using modulo arithmetic
 │       ├── factorial_recursion.go  # Factorial calculation using recursive and iterative approaches
 │       ├── fibonacci_series.go     # Fibonacci series generation using iterative switch-case approach
@@ -44,6 +45,7 @@ go-programs/
 | [`largest_smallest.go`](basics-programs/01_basic_programs/largest_smallest.go) | Finds the smallest and largest numbers in a slice | Array traversal, Min/Max search, Edge case handling |
 | [`swap_numbers.go`](basics-programs/01_basic_programs/swap_numbers.go) | Swaps two numbers using multiple techniques | Tuple assignment, Arithmetic operations, Bitwise XOR |
 | [`sum_of_digits.go`](basics-programs/01_basic_programs/sum_of_digits.go) | Calculates the sum of digits of an integer | Modulo arithmetic, Digit extraction, Recursion vs Iteration |
+| [`count_digits.go`](basics-programs/01_basic_programs/count_digits.go) | Counts the number of digits in an integer | Integer division, Logarithmic complexity, Recursion vs Iteration |
 
 ---
 
@@ -82,4 +84,7 @@ go run basics-programs/01_basic_programs/swap_numbers.go
 
 # Run sum of digits
 go run basics-programs/01_basic_programs/sum_of_digits.go
+
+# Run count digits
+go run basics-programs/01_basic_programs/count_digits.go
 ```
